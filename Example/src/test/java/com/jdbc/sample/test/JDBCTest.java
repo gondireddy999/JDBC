@@ -2,6 +2,7 @@ package com.jdbc.sample.test;
 
 import java.sql.SQLException;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.jdbc.sample.EmployeeDAO;
@@ -13,6 +14,7 @@ public class JDBCTest {
 	 * @throws SQLException 
 	 * @throws ClassNotFoundException 
 	 */
+	@Ignore
 	@Test
 	public void main() {
 		// TODO Auto-generated method stub

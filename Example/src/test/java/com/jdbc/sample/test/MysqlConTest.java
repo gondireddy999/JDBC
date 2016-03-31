@@ -5,12 +5,14 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
-class MysqlConTest {
+public class MysqlConTest {
 
+	@Ignore
 	@Test
-	public  void mysqlConTest() {
+	public void mysqlConnectionTest() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 
